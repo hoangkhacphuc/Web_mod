@@ -1,0 +1,153 @@
+.user_content {
+    padding: 50px 5%;
+    display: flex;
+}
+
+.user_content .menu_user {
+    width: 250px;
+    border: 1px solid #c1c1c1;
+    float: left;
+}
+
+.user_content .menu_user ul {
+    list-style-type: none;
+}
+
+.user_content .menu_user ul li {
+    padding: 5px 0;
+}
+
+.user_content .menu_user ul a {
+    text-decoration: none;
+    color: #424242;
+    padding: 5px 0;
+}
+
+.user_content .menu_user ul a:hover {
+    color: #65b1ff;
+}
+
+.user_content .menu_user .title {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-left: 4px solid #65b1ff;
+}
+
+.user_content .conn_user {
+    width: calc(100% - 272px);
+    float: left;
+    padding-left: 20px;
+}
+
+.user_content .conn_user .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.user_content .conn_user .line {
+    border: 2px solid #65b1ff;
+    width: 400px;
+    margin: 10px 0;
+}
+
+.user_content .conn_user .list {
+    color: #5c6873;
+    margin: 40px 0;
+}
+
+.user_content .conn_user .list table {
+    border-collapse:collapse;
+}
+
+.user_content .conn_user .list tr:nth-child(odd){
+    background-color: #e4e4e4;
+}
+
+.user_content .conn_user .list .title_con {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.user_content .conn_user .list .item{
+    border-top: 1px solid #eee;
+    padding: 7px 15px;
+}
+
+.user_content .conn_user .list .item select {
+    width: 100px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    padding: 7px 12px;
+    font-size: 15px;
+    outline: 0;
+    color: #5c6873;
+}
+
+.user_content .conn_user .list button{
+    border: 1px solid #e7505a;;
+    background-color: #e7505a;;
+    border-radius: 5px;
+    padding: 5px 12px;
+    color: white;
+    margin-left: 20px;
+    outline:0;
+}
+
+.user_content .conn_user .list button:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.menu_p {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu_p {
+        display: block;
+        margin: 20px 5%;
+    }
+
+    .menu_p .title {
+        font-weight: 600;
+        font-size: 17px;
+        padding: 7px;
+        color: #5c6873;
+        display: inline-block;
+    }
+
+    .menu_p button {
+        float: right;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #f5f6f8;
+        color: #5c6873;
+        transition:0.5s;
+        outline: 0;
+        margin-left: 30px;
+    }
+
+    .menu_p button:hover {
+        background-color: #e6e7e8;
+    }
+
+    .user_content {
+        display: grid;
+        padding: 10px 5% 0 5%;
+    }
+
+    .user_content .menu_user {
+        display: none;
+        width: 100%;
+    }
+    
+    .user_content .conn_user {
+        margin-top: 20px;
+        padding-left: 0 !important;
+        width: 100%;
+    }
+}

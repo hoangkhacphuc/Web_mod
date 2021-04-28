@@ -1,0 +1,40 @@
+.user_content .conn_user .list input {
+    width: 320px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    padding: 7px 12px;
+    font-size: 15px;
+    outline:0;
+}
+
+.user_content .conn_user .list textarea {
+    width: 320px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    padding: 7px 12px;
+    font-size: 15px;
+    outline:0;
+}
+
+.user_content .conn_user .list button {
+    margin: 20px 200px;
+    background-color: #2ee030;
+    border-color: #2ee030;
+    padding: 7px 15px;
+}
+
+.user_content .conn_user .list button:hover {
+    background-color: #08c40b;
+    border-color: #08c40b;
+}
+
+.user_content .conn_user .list .getid {
+    width: 250px;
+}
+
+.user_content .conn_user .list .btn-getid {
+    margin: 0 !important;
+    padding: 8px 15px !important;
+}

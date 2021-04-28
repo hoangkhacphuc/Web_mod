@@ -1,0 +1,21 @@
+.user_content .conn_user .list .item input {
+    width: 250px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    padding: 7px 12px;
+    font-size: 15px;
+    outline:0;
+}
+
+.user_content .conn_user .list .btn-changepass {
+    margin: 20px 200px;
+    background-color: #5cb85c;
+    border:1px solid #4cae4c;
+    padding: 7px 15px;
+}
+
+.user_content .conn_user .list .btn-changepass:hover {
+    background-color: #48b148;
+    border-color: #48b148;
+}
