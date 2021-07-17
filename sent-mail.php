@@ -5,7 +5,7 @@
         include "class.phpmailer.php"; 
         $nFrom = "Admin Ken Play girl";    //mail duoc gui tu dau, thuong de ten cong ty ban
         $mFrom = 'kenplaygirl@gmail.com';  //dia chi email cua ban 
-        $mPass = 'phuc123456';       //mat khau email cua ban
+        $mPass = 'passs nè';       //mat khau email cua ban
         $nTo = $name; //Ten nguoi nhan
         $mTo = $mailTo;   //dia chi nhan mail
         $mail             = new PHPMailer();
