@@ -1,7 +1,7 @@
 <?php
     $host = "localhost";
-    $user = "web_mod";
-    $pass = "Phuc123456a@";
+    $user = "root";
+    $pass = "";
     $databaseName = "web_mod";
     session_start();
     $conn = mysqli_connect($host, $user, $pass, $databaseName);

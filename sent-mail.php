@@ -4,7 +4,7 @@
         include('class.smtp.php');
         include "class.phpmailer.php"; 
         $nFrom = "Admin Ken Play girl";    //mail duoc gui tu dau, thuong de ten cong ty ban
-        $mFrom = 'kenplaygirl@gmail.com';  //dia chi email cua ban 
+        $mFrom = 'email@gmail.com';  //dia chi email cua ban 
         $mPass = 'passs nè';       //mat khau email cua ban
         $nTo = $name; //Ten nguoi nhan
         $mTo = $mailTo;   //dia chi nhan mail
@@ -22,7 +22,7 @@
         $mail->Username   = $mFrom;  // khai bao dia chi email
         $mail->Password   = $mPass;              // khai bao mat khau
         $mail->SetFrom($mFrom, $nFrom);
-        $mail->AddReplyTo('kenplaygirl@gmail.com', 'Admin Ken Play girl'); //khi nguoi dung phan hoi se duoc gui den email nay
+        $mail->AddReplyTo('email@gmail.com', 'Admin Ken Play girl'); //khi nguoi dung phan hoi se duoc gui den email nay
         $mail->Subject    = $title;// tieu de email 
         $mail->MsgHTML($body);// noi dung chinh cua mail se nam o day.
         $mail->AddAddress($mTo, $nTo);
